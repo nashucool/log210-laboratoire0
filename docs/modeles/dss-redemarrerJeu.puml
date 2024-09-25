@@ -1,0 +1,9 @@
+@startuml
+skinparam Style strictuml
+
+actor ":Joueur" as player
+participant ":Système" as systeme
+
+player -> systeme :redémarrerJeu()
+
+@enduml 
